@@ -1,0 +1,13 @@
+<div id="<%- id %>"></div>
+<script src="https://gw.alipayobjects.com/as/g/datavis/assets/1.0.5/g2/3.0.0/g2.min.js"></script>
+
+<script type="text/javascript">
+    const chart = new G2.Chart({
+        container: '<%- id %>',
+        height: <%- height %>,
+        width: <%- width %>,
+        data: <%= data %>,
+        options: <%= option %>
+    });
+    chart.render();
+</script>
