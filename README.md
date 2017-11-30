@@ -26,4 +26,4 @@ options: {
 {% endantv %}
 ```
 
-For more details, visit [Demo](http://wshunli.com/hexo-tag-antv/) here.
+For more details, visit [hexo-tag-antv Demo](http://www.wshunli.com/hexo-tag-antv.html) here.
